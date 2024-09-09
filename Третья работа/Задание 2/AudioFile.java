@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class AudioFile extends File {
-    private int duration; // in seconds
+    private int duration; 
     private String artist;
     private String album;
     private String genre;
@@ -53,7 +53,7 @@ class AudioFile extends File {
 
         System.out.print("Enter duration (seconds): ");
         setDuration(scanner.nextInt());
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
 
         System.out.print("Enter artist: ");
         setArtist(scanner.nextLine());
